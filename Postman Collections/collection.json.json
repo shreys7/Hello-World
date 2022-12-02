@@ -7,45 +7,30 @@
 	"item": [
 		{
 			"name": "folder 1",
-			"item": [
+			"item": [],
+			"id": "3c580825-47c0-48d9-9fb4-d5d98a08d15a",
+			"event": [
 				{
-					"name": "sub folder 1 - 1",
-					"item": [
-						{
-							"name": "sub folder 1 req",
-							"id": "a9dfc2a0-1777-4762-8e65-47682e2aff87",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"method": "GET",
-								"header": []
-							},
-							"response": []
-						}
-					],
-					"id": "d9cdede3-483c-4539-9b52-1c10edbec36d"
+					"listen": "prerequest",
+					"script": {
+						"id": "da4712b5-2cfe-4297-876c-bbfbec0499d5",
+						"type": "text/javascript",
+						"exec": [
+							"console.log('folder 1 pre req');"
+						]
+					}
 				},
 				{
-					"name": "sub folder 1 - 2",
-					"item": [
-						{
-							"name": "sub folder 2 req",
-							"id": "f3adedf4-a0c8-44f4-8adf-625173eab843",
-							"protocolProfileBehavior": {
-								"disableBodyPruning": true
-							},
-							"request": {
-								"method": "GET",
-								"header": []
-							},
-							"response": []
-						}
-					],
-					"id": "9138e228-f870-4815-be54-432b37718dea"
+					"listen": "test",
+					"script": {
+						"id": "1eb5a739-91ea-4e0a-8f12-2a92c4aead7f",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
 				}
-			],
-			"id": "3c580825-47c0-48d9-9fb4-d5d98a08d15a"
+			]
 		},
 		{
 			"name": "folder 2",
@@ -96,6 +81,18 @@
 			"item": [
 				{
 					"name": "kini",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "acf2cec7-0917-447b-9516-35f0bb24686a",
+								"exec": [
+									"console.log('kini')"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
 					"id": "89c29965-cd77-4193-907d-8973c6edab18",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
