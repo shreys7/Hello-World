@@ -1,0 +1,101 @@
+{
+	"info": {
+		"_postman_id": "2530c4f9-b257-42be-a016-b9cf8823bae7",
+		"name": "Backup GH",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "folder 1",
+			"item": [
+				{
+					"name": "sub folder 1 - 1",
+					"item": [
+						{
+							"name": "sub folder 1 req",
+							"_postman_id": "a9dfc2a0-1777-4762-8e65-47682e2aff87",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": null
+							},
+							"response": []
+						}
+					],
+					"_postman_id": "d9cdede3-483c-4539-9b52-1c10edbec36d",
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "sub folder 1 - 2",
+					"item": [
+						{
+							"name": "sub folder 2 req",
+							"_postman_id": "f3adedf4-a0c8-44f4-8adf-625173eab843",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": null
+							},
+							"response": []
+						}
+					],
+					"_postman_id": "9138e228-f870-4815-be54-432b37718dea",
+					"_postman_isSubFolder": true
+				}
+			],
+			"_postman_id": "3c580825-47c0-48d9-9fb4-d5d98a08d15a"
+		},
+		{
+			"name": "folder 2",
+			"item": [
+				{
+					"name": "sub folder 2 - 1",
+					"item": [
+						{
+							"name": "sub folder 1 req",
+							"_postman_id": "d260e2c0-0516-4d96-af77-21b754bbb902",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": null
+							},
+							"response": []
+						}
+					],
+					"_postman_id": "e72437ee-34da-4ccc-8125-dd1e6717ba77",
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "sub folder 2 - 2",
+					"item": [
+						{
+							"name": "sub folder 2 req",
+							"_postman_id": "86c85ed6-395e-4a4e-a354-798c50ecb83a",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": null
+							},
+							"response": []
+						}
+					],
+					"_postman_id": "ca5708de-cfd7-417b-849f-f701bdcbcf04",
+					"_postman_isSubFolder": true
+				}
+			],
+			"_postman_id": "0f14c9ac-0331-4d58-8d35-0bd1a1d19937"
+		}
+	]
+}
